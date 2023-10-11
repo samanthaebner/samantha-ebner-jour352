@@ -73,7 +73,9 @@ background-color: #33485e
   margin-top: 20px;
 }
 
-.line {
+.short-line {
+  width: 1000px;
+ text-align: center;
   color:black;
 }
 
