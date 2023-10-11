@@ -17,10 +17,16 @@ body {
    font-size:3em;
  }
 
+ .styled-button {
+  font-family: 'Special Elite', cursive; }
 
 img {
   width:100%;
   max-width:500px;
+}
+
+btn-lg px-4 me-md-2 {
+  font-family: 'Special Elite', cursive;
 }
 
 h1 {
@@ -41,7 +47,7 @@ navbar-brand {
 }
 
 
-btn {
+ {
   font-family: 'Special Elite', cursive; 
 }
 
