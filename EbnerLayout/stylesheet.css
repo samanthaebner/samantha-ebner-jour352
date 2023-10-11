@@ -8,7 +8,14 @@ stylesheet.css
 h1 {
         font-family: "Special Elite", 
         cursive;
+        text-align: center;
+}
 
+.JERUSALEM {
+    font-weight: bold;
+}
+img {
+    text-align: center;
 }
 
 p {
