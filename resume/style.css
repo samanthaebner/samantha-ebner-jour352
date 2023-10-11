@@ -45,7 +45,7 @@ background-color: #33485e
 }
 
 .date {
-  margin-top: 2;
+  margin-top: 2px;
 }
 
 .description {
@@ -54,9 +54,9 @@ background-color: #33485e
 }
 
 .menu {
-  margin: "0px auto";
-  padding: "0px auto";
-  display: inline;
+  margin: 0;
+  padding: 0;
+  display: inline; /* Display list items on the same line */
 }
 
 .degrees {
@@ -71,6 +71,10 @@ background-color: #33485e
   font-weight: 600;
   text-align: center;
   margin-top: 20px;
+}
+
+.description {
+  text-align:center;
 }
 
 .short-line {
