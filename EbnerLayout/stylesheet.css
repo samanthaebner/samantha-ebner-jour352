@@ -1,12 +1,6 @@
 stylesheet.css
 
 
-#masthead {
-    font-family: "Special Elite", cursive;
-    font-size: 50px;
-    text-align: center;
-}
-
 
 #content {
     width: 100%;
@@ -14,6 +8,11 @@ stylesheet.css
     width: 900px;
 }
 
+h3 {
+    font-family: "Special Elite", sans-serif; 
+    text-align: center;
+    font-size: 50px;
+}
 
 h1 {
         font-family: Helvetica, sans-serif; 
