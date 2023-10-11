@@ -7,11 +7,22 @@ stylesheet.css
 
 
 h1 {
-        font-family: "Special Elite", 
-        cursive;
+        font-family: Helvetica, sans serif; 
         text-align: center;
+        font-size: 30px;
 }
 
+#byline {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    }
+
+    body {
+        font-family: Georgia, serif;
+        font-size: 13px;
+    }
+    
 a {
     text-align: center;
 }
