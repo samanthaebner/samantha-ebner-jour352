@@ -56,7 +56,7 @@ background-color: #33485e
 .menu {
   margin: 0;
   padding: 0;
-  display: inline; /* Display list items on the same line */
+  display: inline; 
 }
 
 .degrees {
