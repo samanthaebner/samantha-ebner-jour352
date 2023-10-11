@@ -53,6 +53,12 @@ background-color: #33485e
   margin-bottom: 10px;
 }
 
+.description-top {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .menu {
   margin: 0;
   padding: 0;
@@ -71,10 +77,6 @@ background-color: #33485e
   font-weight: 600;
   text-align: center;
   margin-top: 20px;
-}
-
-.description {
-  text-align:center;
 }
 
 .short-line {
