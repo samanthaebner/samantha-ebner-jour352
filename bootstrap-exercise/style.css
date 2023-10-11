@@ -1,23 +1,22 @@
-style.css
+/* styles.css */
 
-.col-md-6 {
+col-md-6 {
     text-align:center;
 }
 
-.col-md-4 {
+col-md-4 {
     text-align: center;
 }
 
 
- .bi {
+
+
+ bi {
    font-size:3em;
  }
 
- .col-md-4 {
-   text-align: center;
- }
 
-.img {
+img {
   width:100%;
   max-width:500px;
 }
@@ -35,11 +34,12 @@ h3  {
 }
   
 
-.navbar-brand {
+navbar-brand {
   font-family: 'Special Elite'  
 }
 
-.btn {
+
+btn {
   font-family: 'Special Elite'  
 }
 
@@ -47,6 +47,10 @@ h3  {
   .body {
     background-color: teal;
   }
+}
+
+.icon-3em {
+  font-size: 3em;
 }
 
 @media only screen and (max-width: 500px) {
@@ -60,3 +64,16 @@ row{
     font-size: 50px;
   }
 }
+
+.image-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Add spacing between the image and button if needed */
+.image-button-container img {
+  margin-bottom: 10px; /* Adjust this value as needed */
+}
+
