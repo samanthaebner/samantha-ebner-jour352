@@ -1,5 +1,10 @@
 
 .name {
+  border:#33485e;
+  border-width: 1px;
+  width: 60%;
+  min-width: 300px;
+  margin: "0 auto";
   text-align: center
 }
 
@@ -17,7 +22,12 @@ h1 {
     text-align: center;
 }
 
-h2 {
+.sectionheader {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin: 0px;
+  width: 70%;
+  min-width: 300px;
 font-size: 1.5em;
 text-transform: uppercase;
 color: #fff;
@@ -25,21 +35,50 @@ background-color: #33485e
 
 } 
 
-h3  {
+.jobtitle  {
     font-size: 1.5em;
     font-weight:600;
 }
 
+.organization {
+  font-size: 1.25em;
+}
 
+.date {
+  margin-top: 2;
+}
 
-<style>
- .bi {
-   font-size:3em;
- }
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
- .col-md-4 {
-   text-align: center;
- }
-</style>
+.menu {
+  margin: "0px auto";
+  padding: "0px auto";
+  display: inline;
+}
 
+.degrees {
+  margin-top: 5px;
+}
 
+.do {
+  margin-top: 5px;
+}
+
+.title {
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.line {
+  color:black
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: "0 auto";
+}
