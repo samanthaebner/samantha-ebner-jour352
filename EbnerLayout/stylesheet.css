@@ -5,16 +5,14 @@ stylesheet.css
     width: 900px;
 }
 
+
 h1 {
         font-family: "Special Elite", 
         cursive;
         text-align: center;
 }
 
-.JERUSALEM {
-    font-weight: bold;
-}
-img {
+a {
     text-align: center;
 }
 
