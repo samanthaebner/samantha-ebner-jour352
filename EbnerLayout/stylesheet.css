@@ -1,13 +1,22 @@
 stylesheet.css
 
+
+#masthead {
+    font-family: "Special Elite", cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+
 #content {
+    width: 100%;
     margin: 0 auto;
     width: 900px;
 }
 
 
 h1 {
-        font-family: Helvetica, sans serif; 
+        font-family: Helvetica, sans-serif; 
         text-align: center;
         font-size: 30px;
 }
@@ -22,10 +31,6 @@ h1 {
         font-family: Georgia, serif;
         font-size: 13px;
     }
-    
-a {
-    text-align: center;
-}
 
 p {
     font-family: "Times New Roman", 
