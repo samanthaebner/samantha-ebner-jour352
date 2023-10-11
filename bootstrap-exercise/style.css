@@ -9,7 +9,9 @@ col-md-4 {
 }
 
 
-
+body {
+  font-family: ''
+}
 
  bi {
    font-size:3em;
@@ -22,25 +24,25 @@ img {
 }
 
 h1 {
-  font-family: 'Special Elite'  
+  font-family: 'Special Elite', cursive;  
 }
 
 h2 {
-  font-family: 'Special Elite'  
+  font-family: 'Special Elite', cursive;  
 } 
 
 h3  {
-  font-family: 'Special Elite'  
+  font-family: 'Special Elite', cursive;  
 }
   
 
 navbar-brand {
-  font-family: 'Special Elite'  
+  font-family: 'Special Elite', cursive;  
 }
 
 
 btn {
-  font-family: 'Special Elite'  
+  font-family: 'Special Elite', cursive; 
 }
 
 @media only screen and (max-width: 500px) {
