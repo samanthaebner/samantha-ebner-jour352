@@ -60,9 +60,15 @@ background-color: #33485e
 }
 
 .menu {
-  margin: 0;
+  margin: 3;
   padding: 0;
-  display: inline; 
+  align-items: center;
+  justify-content: center;
+  display: flex; 
+}
+.menu-item {
+  padding: 10;
+  margin: 10;
 }
 
 .degrees {
