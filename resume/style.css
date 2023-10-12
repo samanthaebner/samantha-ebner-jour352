@@ -60,15 +60,15 @@ background-color: #33485e
 }
 
 .menu {
-  margin: 3;
-  padding: 0;
   align-items: center;
   justify-content: center;
   display: flex; 
+  gap:5px;
 }
 .menu-item {
-  padding: 10;
-  margin: 10;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .degrees {
@@ -89,6 +89,7 @@ background-color: #33485e
   width: 1000px;
  text-align: center;
   color:black;
+  max-width: 100%;
 }
 
 .container {
