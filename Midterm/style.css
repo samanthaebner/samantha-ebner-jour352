@@ -7,3 +7,19 @@ style.css
     width: 900px;
 }
 
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+h3 {
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
