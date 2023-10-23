@@ -23,9 +23,27 @@ BODY {
 
 h1 {
     font-size: 3em;
-    color: #33485e;
+    color: gold;
     text-transform: uppercase;
     text-align: center;
+}
+
+h2 {
+  font-size: 1em;
+  color: burlywood;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1em;
+  color: black;
+  font-weight: lighter;
+  text-align: center;
+}
+
+col-md-6 {
+  text-align:center;
 }
 
 .sectionheader {
