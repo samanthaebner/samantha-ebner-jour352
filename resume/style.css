@@ -23,9 +23,9 @@ BODY {
 
 h1 {
     font-size: 3em;
+    text-align: center;
     color: gold;
     text-transform: uppercase;
-    text-align: center;
 }
 
 h2 {
