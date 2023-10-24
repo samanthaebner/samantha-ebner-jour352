@@ -17,15 +17,16 @@ p {
   color: #1A5276;
 }
 
+h1 {
+  text-align: center;
+  font-family: 'Special Elite';
+}
+
 .row {
   color: #1A5276;
 }
 
 li {
-  color: #33A1DE;
-}
-
-ol {
   color: #33A1DE;
 }
 
