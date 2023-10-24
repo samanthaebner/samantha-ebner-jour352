@@ -8,116 +8,40 @@
   text-align: center
 }
 
-img {
-  text-align: center;
-  border-width: 1px;
-  width: 100%;
+body {
+  background-color:  #33A1DE; 
 }
 
-BODY {
-
-    font-family: 'Open Sans' , arial , sans-serif;
-    color:#444;
-    font-size: 1em;
+p {
+  color: #1A5276;
 }
 
-h1 {
-    font-size: 3em;
-    text-align: center;
-    color: gold;
-    text-transform: uppercase;
+.row {
+  color: #1A5276;
 }
 
-h2 {
-  font-size: 1em;
-  color: burlywood;
-  text-transform: uppercase;
-  text-align: center;
+li {
+  color: #33A1DE;
 }
 
-h3 {
-  font-size: 1em;
-  color: black;
-  font-weight: lighter;
+ol {
+  color: #33A1DE;
+}
+
+.btn {
+  color: #E0E0E0;
+  font-family: 'Special Elite';
+  text-align: left;
+}
+
+a {
+  color:  #1A5276;
   text-align: center;
 }
 
-col-md-6 {
-  text-align:center;
-}
-
-.sectionheader {
-  margin-bottom: 10px;
-  margin-top: 20px;
-  margin: 0px;
-  width: 70%;
-  min-width: 300px;
-font-size: 1.5em;
-text-transform: uppercase;
-color: #fff;
-background-color: #33485e
-
-} 
-
-.jobtitle  {
-    font-size: 1.5em;
-    font-weight:600;
-}
-
-.organization {
-  font-size: 1.25em;
-}
-
-.date {
-  margin-top: 2px;
-}
-
-.description {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.description-top {
+.about-me {
+  font-size: 2em;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  color:#E0E0E0;
 }
 
-.menu {
-  align-items: center;
-  justify-content: center;
-  display: flex; 
-  gap:5px;
-}
-.menu-item {
-  display:flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.degrees {
-  margin-top: 5px;
-}
-
-.do {
-  margin-top: 5px;
-}
-
-.title {
-  font-weight: 600;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.short-line {
-  width: 1000px;
- text-align: center;
-  color:black;
-  max-width: 100%;
-}
-
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: "0 auto";
-}
