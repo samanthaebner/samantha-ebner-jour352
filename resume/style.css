@@ -34,6 +34,7 @@ li {
   color: #E0E0E0;
   font-family: 'Special Elite';
   text-align: left;
+  font-family: 'Special Elite'; text-align: left;
 }
 
 a {
@@ -45,5 +46,10 @@ a {
   font-size: 2em;
   text-align: center;
   color:#E0E0E0;
+  font-family: Georgia, Times New Roman, serif;
 }
 
+#name {
+  text-align: right;
+  font-size: 5em;
+}
