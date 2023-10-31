@@ -19,11 +19,14 @@ p {
     line-height: 180%;
 }
 
-a {
-    text-align: center;   
-}
+
 
 img {
     width: 60%;
     height: 50%;
 }
+
+h1 {
+    text-align: center;
+}
+
