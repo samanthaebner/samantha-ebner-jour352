@@ -19,6 +19,12 @@
 
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
+  <!-- Load c3.css -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.14/c3.min.css" rel="stylesheet">
+
+  <!-- Load d3.js and c3.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.14/c3.min.js"></script>
   
 </head>
 <body>
@@ -61,7 +67,26 @@
 <p>It wasn’t just the falling-out with a friend that upset Cooper but the coverage of their breakup. “We were being deemed bitchy. We were having a ‘catfight.’ And I’m like, This is not a catfight. We’re talking about a multimillion-dollar brand that is on the line,” says Cooper. “If this were two men, that would not be the conversation.”</p>
 <p>During the negotiation, Cooper posted a video on YouTube wearing relatively little makeup and explained the business behind the podcast. It went viral. “That YouTube video changed my life,” she says. “Before, people were like, ‘She’s the blond girl who talks about sex.’ When I put out the video, everyone was like, ‘Wait, this girl’s smart. She knows what she’s talking about with IP and trademarks and conversion rates.’”</p>
 
-<!--CHART OF COOPER WHEN SHE TOOK OVER SOLO-->
+
+ <div id="myLineChart"></div>
+
+     <!-- c3 script-->
+     <script type="text/javascript">
+      //CHART 1
+      var chart = c3.generate({
+        bindto: '#myLineChart',
+        data: {
+          x: 'x',
+          columns: [
+            ['x', Oct-19, Dec-19, Feb-20, Apr-20, Jun-20, Aug-20, Oct-20, Dec-20, Feb-21, Apr-21,Jun-21, Aug-21],
+            ['Number of apples', 20000, 20000, 10000, 30000, 75000, 75000, 50000, 50000, 25000, 11000, 10000, 5000],
+          ]
+        },
+        color: {
+          pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+        }
+      });
+   </script>
 
 <p>Anyone who believed Cooper was all sex tales and mirror selfies had failed to recognize that she had, in a sense, been preparing for this job her whole life. She grew up in Pennsylvania with a psychologist mother who often emphasized EQ over IQ and a sports-TV producer father. She was encouraged to voice her feelings and spent much of her childhood with a camera in her hand. She’d type out the lines of The Devil Wears Prada as she watched, then hand out scripts to friends to playact in the basement.</p>
 <p>Her love of media actually hampered her sex education. Her private school offered health class as an elective at the same time that it offered a video-production class, and Cooper lobbied the school to let her take the latter. “I never had a sex-ed class ever in my life,” she says. Instead of getting clinical instruction on things like human anatomy and reproduction, she turned to reality shows like Laguna Beach and The Hills to better understand women’s sex lives. It wasn’t until college, when Cooper took her first gender-studies course, that she realized “the thread between all those shows was that the women were the drama, that the women were so emotional.”</p>
