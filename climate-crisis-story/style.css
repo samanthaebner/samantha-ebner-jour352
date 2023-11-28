@@ -9,6 +9,13 @@ style.css
     padding-right: 10px;
 }
 
+p {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    text-align: left;
+    line-height: 180%;
+    color: lightseagreen;
+}
 
 
 img {
@@ -22,7 +29,7 @@ img {
     text-align: left;
     font-weight: bold;
     line-height: 180%;
-    color: lightseagreen;
+    color: green;
 }
 
 blockquote {
