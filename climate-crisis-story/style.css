@@ -57,6 +57,15 @@ ul {
     padding-right: 10px;
 }
 
+
+li {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 180%;
+    color: lightseagreen; 
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
 .container-fluid {
     font-family: 'Montserrat', sans-serif;
     line-height: 180%;
