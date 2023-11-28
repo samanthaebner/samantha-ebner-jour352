@@ -82,5 +82,9 @@ blockquote {
     color: green;
 }
 
+.hero-image {
+    width: 100%;
+}
+
 /* Media queries  */
 
