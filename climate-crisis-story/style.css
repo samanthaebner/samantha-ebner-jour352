@@ -27,8 +27,7 @@ p {
 
 
 img {
-    width: 60%;
-    height: 50%;
+    width: 100%;
     text-align: center;
 }
 
@@ -102,4 +101,23 @@ blockquote {
   }
 
 /* Media queries  */
+
+@media(max-width:670px) {
+    p{
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    .chapter-head {
+        font-size: 1.25em;
+    }
+
+    .head {
+        font-size: 2em;
+    }
+
+    .hero-head {
+        text-size: 1.5em;
+        }
+}
 
