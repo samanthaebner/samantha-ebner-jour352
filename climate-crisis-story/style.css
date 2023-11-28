@@ -28,6 +28,8 @@ p {
     font-family: Georgia, serif;
     line-height: 180%;
     color:green; 
+    padding-left: 20px;
+    padding-right: 10px;
 }
 
 
@@ -59,3 +61,18 @@ blockquote {
     padding: 15px 0 15px 0;
     border-left: 10px solid green;
   }
+
+  .nav-logo {
+    color: green;
+    margin: 0 auto;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .red {
+    color: lightseagreen;
+
+  }
+
+/* Media queries  */
+
