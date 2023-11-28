@@ -1,20 +1,5 @@
 style.css
 
-.heading {
-    font-size: 3em;
-    font-weight: bold;
-    font-family: Georgia, serif;
-    text-align: center;
-    color: lightseagreen;
-}
-
-.byline {
-    font-size: 1em;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    color:green; 
-}
 
 p {
     font-family: 'Montserrat', sans-serif;
@@ -58,6 +43,7 @@ blockquote {
     margin: 0 auto;
     font-weight: 700;
     text-transform: uppercase;
+    text-align: center;
   }
 
   .red {
