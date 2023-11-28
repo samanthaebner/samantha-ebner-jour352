@@ -100,6 +100,22 @@ blockquote {
     font-size: .25em
   }
 
+
+  /* Quote */
+
+  .quote {
+    font-family: 'Montserrat', sans-serif;
+    color: lightseagreen
+    font-size: 3em;
+    font-weight: 700;
+    text-align: left;
+    padding: 15px 0 15px 0;
+    border-top: 1px solid lightseagreen;
+    border-bottom: 1px solid lightseagreen;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
 /* Media queries  */
 
 @media(max-width:670px) {
