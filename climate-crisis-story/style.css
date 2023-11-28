@@ -71,8 +71,16 @@ blockquote {
 
   .red {
     color: lightseagreen;
-
   }
+
+  /* Splash area */
+
+
+.hero-container {
+    position: relative; 
+    text-align: center;
+    color: green;
+}
 
 /* Media queries  */
 
