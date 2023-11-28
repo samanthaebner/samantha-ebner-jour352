@@ -70,7 +70,7 @@ li {
     font-family: 'Montserrat', sans-serif;
     line-height: 180%;
     color: lightseagreen; 
-    background-color: lightseagreen;
+    background: mintcream;
 }
 
 blockquote {
@@ -92,13 +92,13 @@ blockquote {
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    background-color: lightseagreen;
+    background: mintcream;
   }
 
   .navbar {
-    background-color: lightseagreen;
+    background: mintcream;
   }
-  
+
   .red {
     color: lightseagreen;
     text-align: center;
