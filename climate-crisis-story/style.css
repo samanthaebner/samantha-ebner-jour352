@@ -34,15 +34,15 @@ img {
 
 .h3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: .5em;
+    font-size: 1em;
     text-align:left;
     line-height: 180%;
-    color: lightseagreen;
+    color: green;
 }
 
 .h2 {
     font-family: Georgia, serif;
-    font-size: 1em;
+    font-size: 2em;
     text-align: left;
     font-weight: bold;
     line-height: 180%;
