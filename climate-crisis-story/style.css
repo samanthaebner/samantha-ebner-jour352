@@ -1,7 +1,7 @@
 style.css
 
 
-p {
+.container {
     font-family: 'Montserrat', sans-serif;
     line-height: 180%;
     color:green; 
@@ -16,7 +16,7 @@ img {
     text-align: center;
 }
 
-h2 {
+.h2 {
     font-family: Georgia, serif;
     font-size: 1em;
     text-align: left;
@@ -50,7 +50,20 @@ blockquote {
     color: lightseagreen;
   }
 
+  .heading {
+    text-align: center;
+    color: green;
+    font-size: .25em;
+    font-family: Georgia, serif;
+  }
 
+  .attribute {
+    text-align: center;
+    color: lightseagreen;
+    font-size: .25em;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+  }
 
   /* Splash area */
 
@@ -83,7 +96,8 @@ blockquote {
 
   .hero-sub {
     font-family:'Montserrat', sans-serif;
-    font-size: .25em
+    font-size: .25em;
+    color: lightseagreen;
   }
 
 
