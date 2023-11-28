@@ -82,10 +82,6 @@ blockquote {
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    position: absolute;
-    top: 20%;
-    width: 100%;
-    background: lightseagreen;
   }
 
   .red {
