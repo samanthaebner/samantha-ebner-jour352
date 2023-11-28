@@ -1,0 +1,32 @@
+style.css
+
+.heading {
+    font-size: 3em;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.byline {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: Georgia, serif;
+    line-height: 180%;
+}
+
+
+
+img {
+    width: 60%;
+    height: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+

@@ -9,33 +9,29 @@ style.css
 img {
     width:100%;
     height: 100%;
+    text-align: center;
   }
 
-  
-  h1 {
+
+ 
+ #header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    font-size: 50px;
-    font-weight: 500;
-  }
-  
-  h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: left;
-    font-size: 10px;
-    margin-left: 0.5cm;
-    margin-right: 0.5cm;
+    color: #da588e;
+    font-size: 30px;
   } 
 
   #byline {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
+    text-align: left;
     font-weight: lighter;
+    color: #da588e;
     font-size: 15px;
   }
 
+
 p {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: left;
   font-weight: light;
   font-size: 14px;
@@ -51,7 +47,7 @@ h4 {
 }
 
 ul {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: left;
   font-weight: lighter;
   font-size: 15px;
@@ -64,8 +60,8 @@ blockquote {
   text-align: left;
   margin-top: 15px;
   margin-bottom: 15px;
-  color: red;
+  color: #da588e;
   margin-left: 0px;
-  padding-left: 30px;
-  border-left: 10px solid #ccc;
+  padding: 15px 0 15px 0;
+  border-left: 10px solid #da588e;
 }
