@@ -73,6 +73,14 @@ blockquote {
     color: lightseagreen;
   }
 
+  .overlay {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    background: mintcream;
+    opacity: .7;
+  }
+
   /* Splash area */
 
 
