@@ -3,7 +3,7 @@ style.css
 .heading {
     font-size: 3em;
     font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Georgia, serif;
     text-align: center;
     color: lightseagreen;
 }
@@ -11,21 +11,13 @@ style.css
 .byline {
     font-size: 1em;
     text-transform: uppercase;
-    font-family: Georgia, serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     color:green; 
 }
 
-h1 {
-    font-size: 3em;
-    font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    color: lightseagreen;
-}
-
 p {
-    font-family: Georgia, serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 180%;
     color:green; 
     padding-left: 20px;
@@ -41,7 +33,7 @@ img {
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;;
+    font-family: Georgia, serif;
     font-size: 1em;
     text-align: left;
     font-weight: bold;
@@ -50,7 +42,7 @@ h2 {
 }
 
 blockquote {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Georgia, serif;
     font-size: 25px; 
     font-style: italic;
     text-align: left;
@@ -97,14 +89,15 @@ blockquote {
   }
 
   .hero-head {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Georgia, serif;
     font-size: 6em;
     color: green;
     margin: 0 auto;
+    padding-bottom: 10px;
   }
 
   .hero-sub {
-    font-family: Georgia, serif;
+    font-family:'Montserrat', sans-serif;
     font-size: .25em
   }
 
