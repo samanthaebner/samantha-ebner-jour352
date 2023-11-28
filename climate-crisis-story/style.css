@@ -49,6 +49,20 @@ img {
     color: green;
 }
 
+ul {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 180%;
+    color: lightseagreen; 
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.container-fluid {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 180%;
+    color: lightseagreen; 
+}
+
 blockquote {
     font-family: Georgia, serif;
     font-size: 25px; 
