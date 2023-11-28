@@ -23,6 +23,23 @@ img {
     text-align: center;
 }
 
+.h1 {
+    font-family: Georgia, serif;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    line-height: 180%;
+    color: green;
+}
+
+.h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .5em;
+    text-align:left;
+    line-height: 180%;
+    color: lightseagreen;
+}
+
 .h2 {
     font-family: Georgia, serif;
     font-size: 1em;
