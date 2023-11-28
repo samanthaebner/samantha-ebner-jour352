@@ -116,6 +116,14 @@ blockquote {
     margin-bottom: 20px;
   }
 
+  .quote-attribution {
+    font-size: .5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    text-align: left;
+    color: green;
+  }
+
 /* Media queries  */
 
 @media(max-width:670px) {
