@@ -8,6 +8,13 @@ style.css
     padding-right: 10px;
 }
 
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    text-align: left;
+    line-height: 180%;
+    color: grey;
+}
 
 /* Front pic and overlay words */
 
@@ -15,7 +22,7 @@ style.css
 .hero-container {
     position: relative; 
     text-align: center;
-    color: green;
+    color: grey;
 }
 
 .hero-image {
@@ -24,37 +31,38 @@ style.css
 
 .overlay {
     position: absolute;
-    top: 20%;
+    top: 49%;
     width: 100%;
-    background: mintcream;
+    background: lightpink;
     opacity: .7;
   }
 
   .hero-head {
     font-family: Georgia, serif;
     font-size: 6em;
-    color: green;
+    font-weight: bold;
+    color: rgb(231, 18, 121);
     margin: 0 auto;
     padding-bottom: 10px;
   }
 
   .hero-sub {
     font-family:'Montserrat', sans-serif;
-    font-size: .25em;
-    color: lightseagreen;
-  }
-
-  #iframe {
-    color: green
+    font-size: .5em;
+    color: grey;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-bottom: 10px;
   }
 
   .nav-logo {
-    color: green;
+    color: pink;
     margin: 0 auto;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    background: mintcream;
+    background: white;
+    font-size: 2em;
     padding: 15px 0 15px 0;
     width: 100%;
   }
@@ -67,7 +75,7 @@ style.css
     text-align: center;
     font-weight: bold;
     line-height: 180%;
-    color: green;
+    color: pink;
 }
 
 
@@ -77,7 +85,7 @@ style.css
     font-size: 1em;
     text-align:left;
     line-height: 180%;
-    color: lightseagreen;
+    color: grey;
 }
 
 
@@ -90,4 +98,61 @@ col-md-4 {
     text-align: center;
 }
 
+ /* Blockquote */
+ .quote {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(231, 18, 121);
+    font-size: 3em;
+    font-weight: 700;
+    text-align: left;
+    padding: 15px 0 15px 0;
+    border-top: 1px solid pink;
+    border-bottom: 1px solid pink;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-left: 10px solid grey;
+  }
 
+/* iframe */ 
+  #iframe {
+    color: grey
+  }
+
+/* Related Items */
+  .side-bar {
+    color: rgb(231, 18, 121);
+    margin: 0 auto;
+    text-align: left;
+    background-color: pink;
+    padding: 15px 0 15px 0;
+    width: 100%;
+}
+
+h20 {
+font-family: 'Montserrat', sans-serif;
+font-size: 1em;
+text-align:left;
+line-height: 180%;
+color: rgb(231, 18, 121);
+}
+
+/* Media queries  */
+
+@media(max-width:670px) {
+    p{
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    .chapter-head {
+        font-size: 1.25em;
+    }
+
+    .head {
+        font-size: 2em;
+    }
+
+    .hero-head {
+        text-size: 1.5em;
+        }
+}
