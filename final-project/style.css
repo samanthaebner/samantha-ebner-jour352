@@ -1,19 +1,19 @@
 style.css
 
-#content {
-    width: 100%;
-    margin: 0 auto;
-    width: 900px;
-}
 
 img {
-    width:100%;
-    height: 100%;
-    text-align: center;
-  }
+  width: 100%;
+  text-align: center;
+}
 
+.container {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 180%;
+  color:green; 
+  padding-left: 20px;
+  padding-right: 10px;
+}
 
- 
  #header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
@@ -31,37 +31,90 @@ img {
 
 
 p {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family:'Montserrat', sans-serif;
   text-align: left;
   font-weight: light;
   font-size: 14px;
+  color:#da588e;
   margin-left: 0.5cm;
   margin-right: 0.5cm;
 }
 
 h4 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Georgia, serif;
   text-align: left;
   font-weight: lighter;
   font-size: 15px;
 }
 
 ul {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family:'Montserrat', sans-serif;
   text-align: left;
   font-weight: lighter;
   font-size: 15px;
 }
 
 blockquote {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Georgia, serif;
   font-size: 25px; 
   font-style: italic;
   text-align: left;
   margin-top: 15px;
   margin-bottom: 15px;
-  color: #da588e;
+  color: purple;
   margin-left: 0px;
   padding: 15px 0 15px 0;
   border-left: 10px solid #da588e;
+}
+
+/* Header and Topper */ 
+
+.nav-logo {
+  color: #da588e;
+  margin: 0 auto;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  background: mintcream;
+  padding: 15px 0 15px 0;
+  width: 100%;
+}
+
+.navbar {
+  background: mintcream;
+}
+
+
+.red {
+  color: palevioletred;
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  color: pink;
+  font-size: .25em;
+  font-family: Georgia, serif;
+}
+
+.overlay {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  background: mintcream;
+  opacity: .7;
+}
+
+.hero-head {
+  font-family: Georgia, serif;
+  font-size: 6em;
+  color: purple; 
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.hero-sub {
+  font-family:'Montserrat', sans-serif;
+  font-size: .25em;
+  color:#da588e;
 }
