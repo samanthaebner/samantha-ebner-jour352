@@ -1,120 +1,158 @@
 style.css
 
-
-img {
-  width: 100%;
-  text-align: center;
-}
-
 .container {
-  font-family: 'Montserrat', sans-serif;
-  line-height: 180%;
-  color:green; 
-  padding-left: 20px;
-  padding-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 180%;
+    color:green; 
+    padding-left: 20px;
+    padding-right: 10px;
 }
-
- #header {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    color: #da588e;
-    font-size: 30px;
-  } 
-
-  #byline {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: left;
-    font-weight: lighter;
-    color: #da588e;
-    font-size: 15px;
-  }
-
 
 p {
-  font-family:'Montserrat', sans-serif;
-  text-align: left;
-  font-weight: light;
-  font-size: 14px;
-  color:#da588e;
-  margin-left: 0.5cm;
-  margin-right: 0.5cm;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    text-align: left;
+    line-height: 180%;
+    color: grey;
 }
 
-h4 {
-  font-family: Georgia, serif;
-  text-align: left;
-  font-weight: lighter;
-  font-size: 15px;
+/* Front pic and overlay words */
+
+
+.hero-container {
+    position: relative; 
+    text-align: center;
+    color: grey;
 }
 
-ul {
-  font-family:'Montserrat', sans-serif;
-  text-align: left;
-  font-weight: lighter;
-  font-size: 15px;
-}
-
-blockquote {
-  font-family: Georgia, serif;
-  font-size: 25px; 
-  font-style: italic;
-  text-align: left;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  color: purple;
-  margin-left: 0px;
-  padding: 15px 0 15px 0;
-  border-left: 10px solid #da588e;
-}
-
-/* Header and Topper */ 
-
-.nav-logo {
-  color: #da588e;
-  margin: 0 auto;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
-  background: mintcream;
-  padding: 15px 0 15px 0;
-  width: 100%;
-}
-
-.navbar {
-  background: mintcream;
-}
-
-
-.red {
-  color: palevioletred;
-  text-align: center;
-}
-
-.heading {
-  text-align: center;
-  color: pink;
-  font-size: .25em;
-  font-family: Georgia, serif;
+.hero-image {
+    width: 100%;
 }
 
 .overlay {
-  position: absolute;
-  top: 20%;
-  width: 100%;
-  background: mintcream;
-  opacity: .7;
+    position: absolute;
+    top: 49%;
+    width: 100%;
+    background: lightpink;
+    opacity: .7;
+  }
+
+  .hero-head {
+    font-family: Georgia, serif;
+    font-size: 6em;
+    font-weight: bold;
+    color: rgb(231, 18, 121);
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+
+  .hero-sub {
+    font-family:'Montserrat', sans-serif;
+    font-size: .5em;
+    color: grey;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+
+  .nav-logo {
+    color: pink;
+    margin: 0 auto;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    background: white;
+    font-size: 2em;
+    padding: 15px 0 15px 0;
+    width: 100%;
+  }
+
+
+/* Opener/background */
+  .h1 {
+    font-family: Georgia, serif;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    line-height: 180%;
+    color: pink;
 }
 
-.hero-head {
-  font-family: Georgia, serif;
-  font-size: 6em;
-  color: purple; 
-  margin: 0 auto;
-  padding-bottom: 10px;
+
+/* Story by and published */
+.h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    text-align:left;
+    line-height: 180%;
+    color: grey;
 }
 
-.hero-sub {
-  font-family:'Montserrat', sans-serif;
-  font-size: .25em;
-  color:#da588e;
+
+/* Column pictures */
+col-md-6 {
+    text-align:center;
+}
+
+col-md-4 {
+    text-align: center;
+}
+
+ /* Blockquote */
+ .quote {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(231, 18, 121);
+    font-size: 3em;
+    font-weight: 700;
+    text-align: left;
+    padding: 15px 0 15px 0;
+    border-top: 1px solid pink;
+    border-bottom: 1px solid pink;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-left: 10px solid grey;
+  }
+
+/* iframe */ 
+  #iframe {
+    color: grey
+  }
+
+/* Related Items */
+  .side-bar {
+    color: rgb(231, 18, 121);
+    margin: 0 auto;
+    text-align: left;
+    background-color: pink;
+    padding: 15px 0 15px 0;
+    width: 100%;
+}
+
+h20 {
+font-family: 'Montserrat', sans-serif;
+font-size: 1em;
+text-align:left;
+line-height: 180%;
+color: rgb(231, 18, 121);
+}
+
+/* Media queries  */
+
+@media(max-width:670px) {
+    p{
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    .chapter-head {
+        font-size: 1.25em;
+    }
+
+    .head {
+        font-size: 2em;
+    }
+
+    .hero-head {
+        text-size: 1.5em;
+        }
 }
