@@ -3,10 +3,15 @@ style.css
 .container {
     font-family: 'Montserrat', sans-serif;
     line-height: 180%;
-    color:green; 
+    color:grey; 
     padding-left: 20px;
     padding-right: 10px;
 }
+
+img {
+    width:100%;
+    max-width:500px;
+  }
 
 p {
     font-family: 'Montserrat', sans-serif;
@@ -137,21 +142,9 @@ color: rgb(231, 18, 121);
 }
 
 /* Media queries  */
-@media(max-width:670px) {
-    p{
-        padding-left: 20px;
-        padding-right: 10px;
+    @media only screen and (max-width: 500px) {
+        row{
+            font-size: 50px;
+          }
     }
 
-    .chapter-head {
-        font-size: 1.25em;
-    }
-
-    .head {
-        font-size: 2em;
-    }
-
-    .hero-head {
-        text-size: 1.5em;
-        }
-}
