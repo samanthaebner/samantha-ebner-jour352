@@ -11,14 +11,21 @@ style.css
 img {
     width:100%;
     max-width:500px;
+    line-height: 180%;
   }
 
 col-md-6 {
     text-align:center;
+    width:100%;
+    max-width:500px;
+    line-height: 180%;
 }
 
 col-md-4 {
     text-align: center;
+    width:100%;
+    max-width:500px;
+    line-height: 180%;
 }
 
 p {
