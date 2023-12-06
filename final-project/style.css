@@ -21,6 +21,7 @@ img {
   max-width:500px;
   line-height: 180%;
   min-width: 100%;
+  text-align: center;
 }
 
 /* Front pic and overlay words */
@@ -41,7 +42,7 @@ img {
     position: absolute;
     top: 49%;
     width: 100%;
-    background: lightpink;
+    background: black;
     opacity: .7;
   }
 
@@ -57,14 +58,14 @@ img {
   .hero-sub {
     font-family:'Montserrat', sans-serif;
     font-size: 3em;
-    color: black;
+    color: rgb(231, 18, 121);
     font-weight: bold;
     margin: 0 auto;
     padding-bottom: 10px;
   }
 
   .nav-logo {
-    color: pink;
+    color: rgb(231, 18, 121);
     margin: 0 auto;
     font-weight: 700;
     text-transform: uppercase;
@@ -83,7 +84,7 @@ img {
     text-align: center;
     font-weight: bold;
     line-height: 180%;
-    color: pink;
+    color: rgb(231, 18, 121);
 }
 
 
@@ -93,7 +94,7 @@ img {
     font-size: 1em;
     text-align:left;
     line-height: 180%;
-    color: pink;
+    color: rgb(231, 18, 121);
 }
 
 
@@ -125,15 +126,18 @@ col-md-4 {
     background-color: pink;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 15px;
+    margin-left: 30px;
     border-left: 10px solid rgb(231, 18, 121);
   }
 
 /* iframe */ 
   #iframe {
-    color: black;
-    width: 100%;
+    color: rgb(231, 18, 121);
     text-align: center;
+    width:100%;
+    max-width:500px;
+    line-height: 180%;
+    min-width: 100%;
   }
 
 /* Related Items */
@@ -144,33 +148,35 @@ col-md-4 {
     background-color: pink;
     padding: 15px 0 15px 0;
     width: 100%;
+    border-top: 1px solid pink;
 }
 
 h20 {
 font-family: 'Montserrat', sans-serif;
-font-size: 1em;
+font-size: 1.5em;
 text-align:left;
 line-height: 180%;
+font-weight: bolder;
 color: rgb(231, 18, 121);
 }
 
 /* Media queries  */
 
-@media(max-width:670px) {
+@media(max-width: 100px) {
     p{
         padding-left: 20px;
         padding-right: 10px;
     }
 
     .chapter-head {
-        font-size: 1.25em;
+        font-size: 0.25em;
     }
 
     .head {
-        font-size: 2em;
+        font-size: 0.5em;
     }
 
     .hero-head {
-        text-size: 1.5em;
+        text-size: 0.5em;
         }
 }
