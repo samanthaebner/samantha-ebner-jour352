@@ -16,6 +16,12 @@ p {
     color: black;
 }
 
+img {
+  width:100%;
+  max-width:500px;
+  line-height: 180%;
+}
+
 /* Front pic and overlay words */
 
 
@@ -91,11 +97,17 @@ p {
 
 /* Column pictures */
 col-md-6 {
-    text-align:center;
+  text-align:center;
+  width:100%;
+  max-width:500px;
+  line-height: 180%;
 }
 
 col-md-4 {
-    text-align: center;
+  text-align:center;
+  width:100%;
+  max-width:500px;
+  line-height: 180%;
 }
 
  /* Blockquote */
@@ -111,13 +123,13 @@ col-md-4 {
     background-color: pink;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 10px;
-    border-left: 10px solid black;
+    margin-left: 3px;
+    border-left: 10px solid rgb(231, 18, 121);
   }
 
 /* iframe */ 
   #iframe {
-    color: grey
+    color: black;
   }
 
 /* Related Items */
