@@ -128,8 +128,10 @@ col-md-4 {
     padding: 15px 0 15px 0;
     border-top: 1px solid pink;
     border-bottom: 1px solid pink;
+    background-color: pink;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 10px;
     border-left: 10px solid #000000;
   }
 
