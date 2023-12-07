@@ -22,6 +22,7 @@ img {
   line-height: 180%;
   min-width: 100%;
   text-align: center;
+  max-height: 500px;
 }
 
 /* Front pic and overlay words */
@@ -126,7 +127,7 @@ col-md-4 {
     background-color: pink;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 150px;
+    margin-left: 10px;
     border-left: 10px solid rgb(231, 18, 121);
   }
 
