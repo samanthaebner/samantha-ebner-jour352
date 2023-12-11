@@ -46,6 +46,7 @@ img {
     min-width: none;
     background: black;
     opacity: 1.1;
+    object-fit: contain; 
   }
 
   .hero-head {
