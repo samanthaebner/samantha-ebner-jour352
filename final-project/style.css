@@ -38,6 +38,7 @@ img {
 
 .hero-image {
     width: 100%;
+    display: block;
 }
 
 .overlay {
