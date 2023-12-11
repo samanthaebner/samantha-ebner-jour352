@@ -33,7 +33,7 @@ img {
     text-align: center;
     color: black;
     width: 100%;
-}
+  }
 
 .hero-image {
     width: 100%;
@@ -45,8 +45,6 @@ img {
     width: 100%;
     min-width: none;
     background: black;
-    opacity: 1.1;
-    object-fit: contain; 
   }
 
   .hero-head {
